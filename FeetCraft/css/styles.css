@@ -1,0 +1,44 @@
+input {
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 0;
+    background: #00A2E8;
+    color: white;
+}
+
+form {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 350px;
+    margin-top: 50px;
+}
+#user {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#password {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+label {
+    border-bottom: 1px solid white;
+    width: 100%;
+    color: white;
+}
+
+button {
+    margin-left: 70%;
+    margin-top: 5%;
+}
+
+body {
+    background: #00A2E8;
+}
+#head{
+    margin-bottom: 10%;
+    color: #ffffff;
+    margin-top:-45%;
+}
