@@ -1,0 +1,2 @@
+# FeetCrafts
+Ai first project
