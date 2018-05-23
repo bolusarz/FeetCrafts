@@ -1,11 +1,17 @@
 $(document).ready(function(){
-    $("input").hide();
-    $("[for='user']").click(function () {
-        $("#user").slideDown("fast");
-        $(this).css("border-bottom", "none");
-    });
-    $("[for='password']").click(function () {
-        $("#password").slideDown("fast");
-        $(this).css("border-bottom", "none");
-    });
+        $("input").hide();
+        $("[for='user']").click(function () {
+            $("#user").slideDown("fast");
+            $(".divide1").hide();
+            $(this).css("border-bottom", "none");
+        });
+
+        $("[for='pwd']").click(function () {
+            $("#pwd").slideDown("fast");
+            $(".divide2").hide();
+            $(this).css("border-bottom", "none");
+
+        });
+
+
 });
